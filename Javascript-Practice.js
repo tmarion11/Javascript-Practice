@@ -7,7 +7,7 @@
 6 > 4 = true // greater than
 9 < 5 = false // less than
 3 == 4 = false // equals
-12 != 4 = true // true
+12 != 4 = true // not eqaul to
 10 <= 10 = true // less than or eqaul
 
 //strings
@@ -32,3 +32,21 @@
 //Length of strings
 "blahblahblah".length //Returns 12
 "blah blah blah".length //Returns 14, spaces count
+
+//Variables
+//Rules
+//No spaces, no digits, underscore are irritating, don't use dollar signs in a variable name.
+var lukeSkywalker // Camelcase
+
+//Changing a Variables content
+var empireStrikesBack = 2
+empireStrikesBack = 5 // Just change
+empireStrikesBack = empireStrikesBack + 3 // Can also change this way
+empireStrikesBack += 3 // same operation as above, diff syntax
+
+//Variables names can also act as substitutes for the data they hold
+"My favorite episode of Star Wars was " + empireStrikesBack + "." // Will return a 5
+
+//Incrementing and Decrementing
+empireStrikesBack++ // Would return 6
+empireStrikesBack-- // Would return 4
