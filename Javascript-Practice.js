@@ -36,7 +36,7 @@
 //Variables
 //Rules
 //No spaces, no digits, underscore are irritating, don't use dollar signs in a variable name.
-var lukeSkywalker // Camelcase
+var lukeSkywalker // Camelcase all Variables
 
 //Changing a Variables content
 var empireStrikesBack = 2
