@@ -50,3 +50,21 @@ empireStrikesBack += 3 // same operation as above, diff syntax
 //Incrementing and Decrementing
 empireStrikesBack++ // Would return 6
 empireStrikesBack-- // Would return 4
+
+//Variables can store strings. Javascript can hold anything in Variables
+var episode6 = "Return of The Jedi"
+var episode5 = "The Empire Strikes Back"
+episode5 + "\n" + episode6 // Returns The Empire Strikes Back " New Line " then Return of The Jedi
+
+//Variables names can also access the length property
+var episode5 = "One of the greatest episodes of all time!"
+episode5.length // Woulde return 41
+
+//Comparing string lengths using length property
+var longVariable1 = "blah blah blah blah"
+var longVariable2 = "blah blah blah"
+longVariable1 > longVariable2 = true
+
+//Finding specific characters within strings
+var sentence = "0123456789" // Each postition in a string has a numbered "index" starting at 0
+sentence.length = 10 // The last length number will always one more than the last index number
